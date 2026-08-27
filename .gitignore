@@ -1,0 +1,94 @@
+# Generated
+.root_dir
+/run.sh
+__cmake_systeminformation/
+
+# Cache
+.cache
+
+# Docs
+docs/
+
+# Build directories
+build/
+_build/
+cmake-build-*/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+Makefile
+compile_commands.json
+install_manifest.txt
+
+# Ninja
+.ninja_deps
+.ninja_log
+.ninja/
+*.ninja
+
+# Testing / CTest
+Testing/
+CTestCostData.txt
+CTestTestfile.cmake
+
+# Coverage
+*.gcda
+*.gcno
+*.gcov
+coverage/
+lcov.info
+
+# Debugging / crash dumps
+core
+core.*
+*.core
+
+# Compiled binaries / objects
+*.o
+*.obj
+*.lo
+*.a
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+*.out
+
+# IDEs / editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# clangd
+.clangd/
+
+# Sanitizers / profiling
+*.profraw
+*.profdata
+
+# CPack
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.zip
+*.deb
+*.rpm
+*.pkg
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.log
+
+# Project-local generated/private files
+.private/*
+!.private/project.json
+

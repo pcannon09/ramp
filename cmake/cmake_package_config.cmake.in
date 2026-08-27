@@ -1,0 +1,6 @@
+@PACKAGE_INIT@
+
+set(projectName "ciof")
+
+include("${CMAKE_CURRENT_LIST_DIR}/${projectName}Target.cmake")
+
