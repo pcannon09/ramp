@@ -25,23 +25,23 @@
 /** @{ */
 
 /** @brief Library major version component. */
-#define RAMP_VERSION_MAJOR            0
+#define RAMP_VERSION_MAJOR            1
 
 /** @brief Library minor version component. */
 #define RAMP_VERSION_MINOR            0
 
 /** @brief Library patch version component. */
-#define RAMP_VERSION_PATCH            1
+#define RAMP_VERSION_PATCH            0
 
 /** @brief Project standards revision number. */
-#define RAMP_VERSION_STD              1
+#define RAMP_VERSION_STD              20260827
 
 /**
  * @brief Version lifecycle state string.
  *
  * Typical values: `"dev"`, `"beta"`, `"build"`.
  */
-#define RAMP_VERSION_STATE          "dev"
+#define RAMP_VERSION_STATE          "build"
 
 /**
  * @brief Packed version integer from major/minor/patch/state.
